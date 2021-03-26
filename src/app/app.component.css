@@ -1,0 +1,81 @@
+.mat-tab-group {
+    height: 100%;
+}
+
+:host ::ng-deep .mat-tab-body-wrapper {
+    height: 100%;
+  
+  }
+  
+:host ::ng-deep .mat-tab-body.mat-tab-body-active {
+height: 100%;
+
+}
+
+.result-component {
+    border: 1px solid;
+}
+
+table {
+    width: 100%;
+}
+  
+.mat-form-field {
+    font-size: 14px;
+    width: 100%;
+}
+
+.input-div {
+    display: block;
+    position: relative;
+    height: 30px;
+    left: 50%;
+    transform: translate(-6%, -50%);
+    padding: 2px 4px;
+}
+
+.form-component-div {
+    margin-top: 50px;
+}
+
+.action-btn {
+    left: 50%;
+    transform: translate(-54%, -50%);
+    position: relative;
+    margin-top: 5px;
+    justify-content: center;
+    border-radius: 5px;
+    letter-spacing: 1px;
+    text-align: center;
+    background-color: #7B1FA2;
+    box-sizing: border-box;
+    border: 2px solid #7B1FA2;
+    color: white;
+    transition: .4s ease-in-out;
+    cursor: pointer;
+    padding: 6px 12px;
+    text-decoration: none;
+}
+
+.action-btn:hover {
+    background-color: #6A1B9A;
+    border: 2px solid #6A1B9A;
+    color: white;
+}
+
+.result-component {
+    margin-top: 20px;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+    width: 80%;
+    padding: 20px;
+    height: 400px;
+    justify-content: center;
+}
+
+.result-text {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
